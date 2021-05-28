@@ -1,7 +1,11 @@
 {
   "name": "passhidder",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MissNalgas/passhidder.git"
+  },
   "peerDependencies": {
     "@angular/common": "^10.0.14",
     "@angular/core": "^10.0.14"
