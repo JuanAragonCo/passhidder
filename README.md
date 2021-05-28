@@ -23,7 +23,7 @@ import { HideModule } from "passhidder"
   ],
   imports: [
     BrowserModule,
-    MyModule
+    HideModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -35,4 +35,4 @@ export class AppModule { }
 
 yourapp.component.ts
 
-` <mssn-pass-input placeholder="placeholder"></mssn-pass-input> `
+` <mssn-pass-input [(ngModel)]="mydata" placeholder="placeholder"></mssn-pass-input> `
