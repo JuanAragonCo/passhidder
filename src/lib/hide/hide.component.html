@@ -1,0 +1,21 @@
+<div class="container" [ngClass]="isHidden ? '' : 'cont-shown'">
+    
+    <input [placeholder]="placeholder" [(ngModel)]="value" class="input" type="password" [ngClass]="isHidden ? '' : 'input-shown'" #input>
+    
+    <button (click)="toggleShow()" class="show-button">
+    </button>
+    <svg class="svg-eye" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 58.22">
+        <title>eye</title>
+        <g id="Layer_2" data-name="Layer 2">
+        <path d="M6,48s40-60,86,0C92,48,55,119,6,48Z" transform="translate(-6 -21.33)" fill="#fff"/>
+        </g>
+        <g id="Layer_3" data-name="Layer 3">
+        <circle cx="43" cy="28.67" r="18"/>
+        </g>
+        <g id="Layer_4" data-name="Layer 4">
+        <circle cx="43" cy="28.67" r="11" fill="#fff"/>
+        </g>
+        </svg>
+    <div class="btn-background" [ngClass]="isHidden ? '' : 'shown'"></div>
+    
+</div>
